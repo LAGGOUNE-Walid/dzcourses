@@ -4,8 +4,15 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <meta name="google-site-verification" content="YFEV7wY7tisoM8UG6JIghdFWlUbvps3oM5fWiDxiaY0"/>
-    <meta name="description" content="Algerian online eLearning and money making platform, Do you have a skill or a knowledge and you want to teach it and earn money ? Dz-courses is your choice. You want to learn something new to improve your skills ? learn anything anywhere from your computer ? just click sign up ."/>
-       <meta name="keywords" content="DZcourses,dzcourses,dz courses,algeria, algerian,online,online learning,make money,make money online,teaching,courses,algerian courses,الجزائر,دورات تعليمية,دورات تعليمية جزائرية,ربح لمال في الجزائر,تعليم,تعلم">
+    <? if(is_null($courses) OR $courses == 0): ?>
+        <meta name="description" content="Algerian online eLearning and money making platform, Do you have a skill or a knowledge and you want to teach it and earn money ? Dz-courses is your choice. You want to learn something new to improve your skills ? learn anything anywhere from your computer ? just click sign up ."/>
+    <meta name="keywords" content="DZcourses,dzcourses,dz courses,algeria, algerian,online,online learning,make money,make money online,teaching,courses,algerian courses,الجزائر,دورات تعليمية,دورات تعليمية جزائرية,ربح لمال في الجزائر,تعليم,تعلم">
+    <? else: ?>
+        <? foreach($courses as $course): ?>
+            <meta name="description" content="<? echo $course->description; ?>"/>
+            <meta name="keywords" content="<? echo $course->tags; ?>">
+        <? endforeach; ?>
+    <? endif; ?>
     <meta property="og:title" content="DZcourses"/>
     <meta property="og:description" content="Algerian online eLearning and money making platform."/>
     <meta property="og:type" content="Website"/>

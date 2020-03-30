@@ -82,41 +82,41 @@
 		  <p  style="float: right; color: red;">قم بتحميل 3 صور مختلفة مختلفة للفاتورة. (الصور المقبولة: .jpg ، .jpeg ، .png) وصورة واحدة لبطاقة الهوية</p>
 		  <br/>
 		  <div style="float: right;" class="form-row">
-		    <div class="form-group col-md-5">
-		      <label for="inputFirstname">Invoice image 1</label>
-		      <div class="custom-file">
-				    <input name="image1" type="file" class="custom-file-input" id="validatedCustomFile" required>
+			    <div class="form-group col-md-5">
+			      <label id="image1" for="inputFirstname">الصورة 1 للفاتورة</label>
+			      <div class="custom-file">
+					    <input name="image1" onchange="imageName(this, 'image1')" type="file" class="custom-file-input" id="validatedCustomFile" required>
+					    <label class="custom-file-label" for="validatedCustomFile">Choose file...</label>
+					    <div class="invalid-feedback">Example invalid custom file feedback</div>
+					</div>
+			    </div>
+			    <br/>
+			    <div class="form-group col-md-5">
+			      <label id="image2" for="inputLastname">الصورة 2 للفاتورة</label>
+			      <div class="custom-file">
+				    <input name="image2" onchange="imageName(this, 'image2')" type="file" class="custom-file-input" id="validatedCustomFile" required>
 				    <label class="custom-file-label" for="validatedCustomFile">Choose file...</label>
 				    <div class="invalid-feedback">Example invalid custom file feedback</div>
-				</div>
-		    </div>
-		    <br/>
-		    <div class="form-group col-md-5">
-		      <label for="inputLastname">Invoice image 2</label>
-		      <div class="custom-file">
-			    <input name="image2" type="file" class="custom-file-input" id="validatedCustomFile" required>
-			    <label class="custom-file-label" for="validatedCustomFile">Choose file...</label>
-			    <div class="invalid-feedback">Example invalid custom file feedback</div>
-			  </div>
-		    </div>
-		    <br/>
-		    <div class="form-group col-md-5">
-		      <label for="inputLastname">Invoice image 3</label>
-		      <div class="custom-file">
-			    <input name="image3" type="file" class="custom-file-input" id="validatedCustomFile" required>
-			    <label class="custom-file-label" for="validatedCustomFile">Choose file...</label>
-			    <div class="invalid-feedback">Example invalid custom file feedback</div>
-			  </div>
-		    </div>
-		    <br/>
-		    <div class="form-group col-md-5">
-		      <label  for="inputLastname">identity card</label>
-		      <div class="custom-file">
-			    <input name="id" type="file" class="custom-file-input" id="validatedCustomFile" required>
-			    <label class="custom-file-label" for="validatedCustomFile">Choose file...</label>
-			    <div class="invalid-feedback">Example invalid custom file feedback</div>
-			  </div>
-		    </div>
+				  </div>
+			    </div>
+			    <br/>
+			    <div class="form-group col-md-5">
+			      <label id="image3" for="inputLastname">الصورة 3 للفاتورة</label>
+			      <div class="custom-file">
+				    <input name="image3" onchange="imageName(this, 'image3')" type="file" class="custom-file-input" id="validatedCustomFile" required>
+				    <label class="custom-file-label" for="validatedCustomFile">Choose file...</label>
+				    <div class="invalid-feedback">Example invalid custom file feedback</div>
+				  </div>
+			    </div>
+			    <br/>
+			    <div class="form-group col-md-5">
+			      <label id="image4" for="inputLastname">صورة لبطافة الهوية</label>
+			      <div class="custom-file">
+				    <input name="id" type="file" onchange="imageName(this, 'image4')" class="custom-file-input" id="validatedCustomFile" required>
+				    <label class="custom-file-label" for="validatedCustomFile">Choose file...</label>
+				    <div class="invalid-feedback">Example invalid custom file feedback</div>
+				  </div>
+			    </div>
 		  </div>
 		  <div class="form-group">
 		    <label style="float: right;" for="inputAddress2">المبلغ المُرسل (DA)</label>
@@ -131,4 +131,10 @@
 		</form>
 	</div>
 </body>
+<script type="text/javascript">
+	function imageName(fileInput, label) {
+		var filename = fileInput.files[0].name;
+		document.getElementById(label).innerHTML = filename;
+	}
+</script>
 </html>

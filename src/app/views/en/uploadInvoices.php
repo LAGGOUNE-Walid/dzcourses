@@ -77,42 +77,42 @@
 		  </div>
 		  <br/>
 		  <p style="color: red;">Upload 3 different images from 3 different views of the invoice. (Accepted images : .jpg, .jpeg, .png) and one image for the ID</p>
-		  <div class="form-row">
-		    <div class="form-group col-md-5">
-		      <label for="inputFirstname">Invoice image 1</label>
-		      <div class="custom-file">
-				    <input name="image1" type="file" class="custom-file-input" id="validatedCustomFile" required>
+			<div class="form-row">
+			    <div class="form-group col-md-5">
+			      <label id="image1" for="inputFirstname">Invoice image 1</label>
+			      <div class="custom-file">
+					    <input name="image1" onchange="imageName(this, 'image1')" type="file" class="custom-file-input" id="validatedCustomFile" required>
+					    <label class="custom-file-label" for="validatedCustomFile">Choose file...</label>
+					    <div class="invalid-feedback">Example invalid custom file feedback</div>
+					</div>
+			    </div>
+			    <br/>
+			    <div class="form-group col-md-5">
+			      <label id="image2" for="inputLastname">Invoice image 2</label>
+			      <div class="custom-file">
+				    <input name="image2" onchange="imageName(this, 'image2')" type="file" class="custom-file-input" id="validatedCustomFile" required>
 				    <label class="custom-file-label" for="validatedCustomFile">Choose file...</label>
 				    <div class="invalid-feedback">Example invalid custom file feedback</div>
-				</div>
-		    </div>
-		    <br/>
-		    <div class="form-group col-md-5">
-		      <label for="inputLastname">Invoice image 2</label>
-		      <div class="custom-file">
-			    <input name="image2" type="file" class="custom-file-input" id="validatedCustomFile" required>
-			    <label class="custom-file-label" for="validatedCustomFile">Choose file...</label>
-			    <div class="invalid-feedback">Example invalid custom file feedback</div>
-			  </div>
-		    </div>
-		    <br/>
-		    <div class="form-group col-md-5">
-		      <label for="inputLastname">Invoice image 3</label>
-		      <div class="custom-file">
-			    <input name="image3" type="file" class="custom-file-input" id="validatedCustomFile" required>
-			    <label class="custom-file-label" for="validatedCustomFile">Choose file...</label>
-			    <div class="invalid-feedback">Example invalid custom file feedback</div>
-			  </div>
-		    </div>
-		    <br/>
-		    <div class="form-group col-md-5">
-		      <label for="inputLastname">identity card</label>
-		      <div class="custom-file">
-			    <input name="id" type="file" class="custom-file-input" id="validatedCustomFile" required>
-			    <label class="custom-file-label" for="validatedCustomFile">Choose file...</label>
-			    <div class="invalid-feedback">Example invalid custom file feedback</div>
-			  </div>
-		    </div>
+				  </div>
+			    </div>
+			    <br/>
+			    <div class="form-group col-md-5">
+			      <label id="image3" for="inputLastname">Invoice image 3</label>
+			      <div class="custom-file">
+				    <input name="image3" onchange="imageName(this, 'image3')" type="file" class="custom-file-input" id="validatedCustomFile" required>
+				    <label class="custom-file-label" for="validatedCustomFile">Choose file...</label>
+				    <div class="invalid-feedback">Example invalid custom file feedback</div>
+				  </div>
+			    </div>
+			    <br/>
+			    <div class="form-group col-md-5">
+			      <label id="image4" for="inputLastname">identity card</label>
+			      <div class="custom-file">
+				    <input name="id" type="file" onchange="imageName(this, 'image4')" class="custom-file-input" id="validatedCustomFile" required>
+				    <label class="custom-file-label" for="validatedCustomFile">Choose file...</label>
+				    <div class="invalid-feedback">Example invalid custom file feedback</div>
+				  </div>
+			    </div>
 		  </div>
 		  <div class="form-group">
 		    <label for="inputAddress2">Sended money (DA)</label>
@@ -127,4 +127,10 @@
 		</form>
 	</div>
 </body>
+<script type="text/javascript">
+	function imageName(fileInput, label) {
+		var filename = fileInput.files[0].name;
+		document.getElementById(label).innerHTML = filename;
+	}
+</script>
 </html>
