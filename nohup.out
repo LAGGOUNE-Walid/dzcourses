@@ -1,0 +1,27 @@
+[2020-03-27 14:42:26 @8230.0]	WARNING	swSocket_bind(:434): bind(0.0.0.0:5784) failed, Error: Address already in use[98]
+PHP Fatal error:  Uncaught Swoole\Exception: failed to listen server port[0.0.0.0:5784], Error: Address already in use[98] in /var/www/html/src/bin/server.php:8
+Stack trace:
+#0 /var/www/html/src/bin/server.php(8): Swoole\Server->__construct()
+#1 {main}
+  thrown in /var/www/html/src/bin/server.php on line 8
+Starting server ... [2020-03-27 14:46:24 #8240.1]	INFO	Server is shutdown now
+Starting server ... [2020-03-27 14:48:56 *8299.0]	NOTICE	swFactoryProcess_end (ERRNO 1003): The connection[2] is closing
+[2020-03-27 15:05:31 *8299.0]	NOTICE	swFactoryProcess_end (ERRNO 1003): The connection[1] is closing
+[2020-03-27 15:32:40 *8299.0]	NOTICE	swFactoryProcess_end (ERRNO 1003): The connection[3] is closing
+[2020-03-27 15:34:20 *8299.0]	NOTICE	swFactoryProcess_end (ERRNO 1003): The connection[5] is closing
+[2020-03-27 15:34:32 *8299.0]	NOTICE	swFactoryProcess_end (ERRNO 1003): The connection[4] is closing
+[2020-03-27 15:36:51 *8299.0]	NOTICE	swFactoryProcess_end (ERRNO 1003): The connection[6] is closing
+[2020-03-27 15:37:07 *8299.0]	NOTICE	swFactoryProcess_end (ERRNO 1003): The connection[9] is closing
+[2020-03-27 15:37:11 *8299.0]	NOTICE	swFactoryProcess_end (ERRNO 1003): The connection[11] is closing
+[2020-03-27 15:39:21 *8299.0]	NOTICE	swFactoryProcess_end (ERRNO 1003): The connection[7] is closing
+[2020-03-27 15:39:23 *8299.0]	NOTICE	swFactoryProcess_end (ERRNO 1003): The connection[10] is closing
+[2020-03-27 15:39:25 *8299.0]	NOTICE	swFactoryProcess_end (ERRNO 1003): The connection[8] is closing
+[2020-03-27 15:40:27 *8299.0]	NOTICE	swFactoryProcess_end (ERRNO 1003): The connection[13] is closing
+[2020-03-27 15:40:36 *8299.0]	NOTICE	swFactoryProcess_end (ERRNO 1003): The connection[12] is closing
+[2020-03-27 15:42:55 *8299.0]	NOTICE	swFactoryProcess_end (ERRNO 1003): The connection[14] is closing
+[2020-03-27 15:43:06 *8299.0]	NOTICE	swFactoryProcess_end (ERRNO 1003): The connection[15] is closing
+[2020-03-27 16:14:56 *8299.0]	NOTICE	swFactoryProcess_end (ERRNO 1003): The connection[16] is closing
+[2020-03-27 16:20:12 *8299.0]	NOTICE	swFactoryProcess_end (ERRNO 1003): The connection[17] is closing
+[2020-03-27 19:11:27 *8299.0]	NOTICE	swFactoryProcess_end (ERRNO 1003): The connection[19] is closing
+[2020-03-27 19:16:01 *8299.0]	NOTICE	swFactoryProcess_end (ERRNO 1003): The connection[20] is closing
+[2020-03-27 21:13:07 *8299.0]	NOTICE	swFactoryProcess_end (ERRNO 1003): The connection[18] is closing

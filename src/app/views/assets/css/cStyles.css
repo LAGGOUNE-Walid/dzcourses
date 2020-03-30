@@ -1,0 +1,50 @@
+div {
+}
+
+.img-fluid {
+  display: block;
+  /*position: center;*/
+}
+
+.border-dark.shadow-sm {
+  border: 4px solid black;
+}
+
+.footer {
+  /*display: inline;*/
+  /*float: left;*/
+}
+
+.h3, h3 {
+  display: inline;
+  float: right;
+}
+
+img {
+}
+
+.sig {
+  display: inline;
+  float: left;
+}
+
+.text-center {
+}
+
+.h1, h1 {
+}
+
+#date {
+  /*position: fixed;*/
+  /*display: inline;*/
+  /*float: right;*/
+  /*margin-top: 5%;*/
+  /*position: fixed;*/
+}
+
+#date {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+

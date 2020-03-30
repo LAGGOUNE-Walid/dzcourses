@@ -1,0 +1,31 @@
+.border-dark.flex-column {
+  border-bottom: 1px solid black;
+}
+
+#onlineUsers {
+  overflow:scroll;
+  height: 100%;
+  /*border-top: 1px solid black;*/
+  /*border-bottom: 1px solid black;*/
+}
+
+#reciver {
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+
+  /*border-right-radius: 10px;*/
+}
+
+#sender {
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+}
+
+#main {
+  border-bottom: 1px solid black;
+  overflow:scroll;
+}
+
