@@ -186,15 +186,19 @@
                 <br/>
                 <div class="form-group">
                     <div class="form-label">Upload your courses <strong style="color:red">(Do not zip your videos folder . Zip all your videos and upload it) (Allowed videos formats : mp4, webm)</strong></div>
+                    <br/>
+                    <div id="courseLabel"></div>
                     <div class="custom-file">
-                      <input id="courseFolder" type="file" class="custom-file-input" name="coursesFile">
+                      <input id="courseFolder" onchange="imageName(this, 'courseLabel')" type="file" class="custom-file-input" name="coursesFile">
                     <label class="custom-file-label">Upload</label>
                   </div>
                 </div>
                 <div class="form-group">
                     <div class="form-label">Upload a cover </div>
+                    <br/>
+                    <div id="coverLabel"></div>
                     <div class="custom-file">
-                      <input id="courseCover" type="file" class="custom-file-input" name="cover">
+                      <input id="courseCover" onchange="imageName(this, 'coverLabel')" type="file" class="custom-file-input" name="cover">
                     <label class="custom-file-label">Upload</label>
                   </div>
                 </div>
@@ -318,6 +322,10 @@
             if (keyCode == '13'){
               return false;
             }
+      }
+      function imageName(fileInput, label) {
+        var filename = fileInput.files[0].name;
+        document.getElementById(label).innerHTML = filename;
       }
     </script>
     </div>

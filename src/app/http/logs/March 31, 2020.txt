@@ -1,0 +1,51 @@
+User: 127.0.0.1 - March 31, 2020, 9:22 pm
+Visited: /walid/dz-courses/dz-courses/addCourse
+________________________________________________________________________
+User: 127.0.0.1 - March 31, 2020, 9:21 pm
+Visited: /walid/dz-courses/dz-courses/addCourse
+________________________________________________________________________
+User: 127.0.0.1 - March 31, 2020, 9:21 pm
+Visited: /walid/dz-courses/dz-courses/tPanel
+________________________________________________________________________
+User: 127.0.0.1 - March 31, 2020, 9:21 pm
+Visited: /walid/dz-courses/dz-courses/
+________________________________________________________________________
+User: 127.0.0.1 - March 31, 2020, 9:21 pm
+Visited: /walid/dz-courses/dz-courses/changeLanguage
+________________________________________________________________________
+User: 127.0.0.1 - March 31, 2020, 9:21 pm
+Visited: /walid/dz-courses/dz-courses/
+________________________________________________________________________
+User: 127.0.0.1 - March 31, 2020, 9:21 pm
+Visited: /walid/dz-courses/dz-courses/tPanel
+________________________________________________________________________
+User: 127.0.0.1 - March 31, 2020, 9:20 pm
+Visited: /walid/dz-courses/dz-courses/tPanel
+________________________________________________________________________
+User: 127.0.0.1 - March 31, 2020, 9:20 pm
+Visited: /walid/dz-courses/dz-courses/addCourse
+________________________________________________________________________
+User: 127.0.0.1 - March 31, 2020, 9:19 pm
+Visited: /walid/dz-courses/dz-courses/addCourse
+________________________________________________________________________
+User: 127.0.0.1 - March 31, 2020, 9:18 pm
+Visited: /walid/dz-courses/dz-courses/addCourse
+________________________________________________________________________
+User: 127.0.0.1 - March 31, 2020, 9:18 pm
+Visited: /walid/dz-courses/dz-courses/addCourse
+________________________________________________________________________
+User: 127.0.0.1 - March 31, 2020, 9:18 pm
+Visited: /walid/dz-courses/dz-courses/tPanel
+________________________________________________________________________
+User: 127.0.0.1 - March 31, 2020, 9:17 pm
+Visited: /walid/dz-courses/dz-courses/tPanel
+________________________________________________________________________
+User: 127.0.0.1 - March 31, 2020, 9:17 pm
+Visited: /walid/dz-courses/dz-courses/postTeacherLogin
+________________________________________________________________________
+User: 127.0.0.1 - March 31, 2020, 9:16 pm
+Visited: /walid/dz-courses/dz-courses/teacherLogin
+________________________________________________________________________
+User: 127.0.0.1 - March 31, 2020, 9:16 pm
+Visited: /walid/dz-courses/dz-courses/
+________________________________________________________________________

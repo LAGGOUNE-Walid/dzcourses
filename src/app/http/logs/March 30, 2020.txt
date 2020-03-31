@@ -1,3 +1,12 @@
+User: 127.0.0.1 - March 30, 2020, 10:47 pm
+Visited: /walid/dz-courses/dz-courses/
+________________________________________________________________________
+User: 127.0.0.1 - March 30, 2020, 10:47 pm
+Visited: /walid/dz-courses/dz-courses/logout
+________________________________________________________________________
+User: 127.0.0.1 - March 30, 2020, 10:47 pm
+Visited: /walid/dz-courses/dz-courses/lPanel
+________________________________________________________________________
 User: 127.0.0.1 - March 30, 2020, 10:39 pm
 Visited: /walid/dz-courses/dz-courses/lNotifications/src/app/views/assets/js/vendors/bootstrap.bundle.min.js
 ________________________________________________________________________
